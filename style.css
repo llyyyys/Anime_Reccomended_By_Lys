@@ -1,0 +1,186 @@
+
+body{
+	font-family: 'Luckiest Guy', cursive;
+}
+
+a{
+	text-decoration: none;
+}
+
+#Banner {
+	width: 100%;
+	object-fit: cover;
+	height: 40%;
+}
+
+#logoIcon{
+	width: 10%;
+}
+
+#SignInIcon{
+	width: 5%;
+}
+
+#MenuIcon{
+	width: 5%;
+}
+
+#bannerText{
+	font-size: 90px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+#buttonText{
+	font-size:  25px;
+	font-family: 'Nothing You Could Do', cursive;
+	text-align: center;
+}
+
+h2{
+	font-size: 25px;
+	font-family: 'Nothing You Could Do', cursive;
+	color: black;
+}
+
+
+
+.Anime{
+	width: 250px;
+	height: 350px;
+	object-fit:  cover;
+}
+
+
+li{
+	list-style: none;
+	padding: 10px;
+}
+
+
+
+/************************************/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#BananaBanner{
+	display: flex;
+}
+
+
+#Banner{
+	position: relative;
+}
+
+
+#logoIcon, #SignInIcon, #MenuIcon, #BananaBanner > h1, #BananaBanner > h2{
+	display: flex;
+	position: absolute;
+}
+
+
+#logoIcon{
+	transform: translate(50px, -30px);
+	padding: none;
+}
+
+
+#MenuIcon{
+	transform: translate(-100px, 30px);
+}
+
+
+#SignInIcon{
+	transform: translate(-180px, 30px);
+}
+
+#BananaBanner > h1 {
+	transform: translate(-300px, -10px);
+
+}
+
+#buttonText {
+	transform: translate(-1000px, 450px);
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	font-size: 150%;
+}
+
+#bannerText{
+	transform: translate(-890px, 200px);
+	color: mediumpurple;
+	font-size: 50px;
+}
+
+#Anime1{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	margin: 10px;
+	transform: translate(-1050px, 470px);
+}
+
+.Anime{
+	padding: 10px;
+	margin: 10px;
+}
+
+#Anime2{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;
+	margin: 10px;
+	transform: translate(-1050px, 520px);
+}
+
+#Rec1{
+	font-size: 20px;
+	transform: translate(-720px,550px);
+}
+
+
+#Rec2{
+	font-size: 20px;
+	transform: translate(-1000px, 1100px);
+}
+
+
+
+/*#bannerText{
+	transform: translate(-300px, -100);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
